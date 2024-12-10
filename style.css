@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FF8C00;
+}
+
+.header {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: start;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.productos, .mision-vision, .ubicacion, .contacto {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Misión y Visión */
+.contenedor-mision-vision {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.mision-vision .mision, .mision-vision .vision {
+    background-color: white;
+    border: 2px solid #ff8c0000;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.mision-vision h3 {
+    color: #FF8C00;
+    text-transform: uppercase;
+}
+
+/* Ubicación */
+.mapa-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Contacto */
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto input, .contacto textarea, .contacto button {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contacto button {
+    background-color: #FF8C00;
+    color: black;
+    cursor: pointer;
+}
